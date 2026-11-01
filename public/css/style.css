@@ -2027,3 +2027,13 @@ html:not(.dark) .dropdown-item.active {
 
 
 
+/* 只针对分类导航的链接（带有 href="?catalog=" 的 a 标签） */
+a[href^="?catalog="] {
+    color: #ffffff !important;
+}
+
+/* 强制让分类导航里的图标也变成白色 */
+a[href^="?catalog="] svg {
+    color: #ffffff !important;
+    fill: #ffffff !important;
+}
