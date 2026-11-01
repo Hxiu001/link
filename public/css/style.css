@@ -2027,21 +2027,3 @@ html:not(.dark) .dropdown-item.active {
 
 
 
-/* 强制侧边栏文字和图标全部变白 */
-aside, .sidebar, .sidebar-nav, .menu-item, .nav-item, nav ul li a {
-    color: #ffffff !important;
-}
-
-/* 强制侧边栏图标变白（有些图标是SVG，需要改fill和stroke） */
-aside svg, .sidebar svg, .sidebar-nav svg, .menu-item svg, .nav-item svg, nav ul li a svg {
-    fill: #ffffff !important;
-    stroke: #ffffff !important;
-    color: #ffffff !important;
-}
-
-
-
-
-
-
-
